@@ -8,3 +8,4 @@ if (!url || !key) {
 }
 
 export const supabase = createClient(url, key);
+export const PHOTO_BUCKET = 'report-photos';
